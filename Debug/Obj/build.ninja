@@ -58,7 +58,6 @@ build stm32f4xx_syscfg.pbi : index stm32f4xx_syscfg.xcl
 build stm32f4xx_tim.pbi : index stm32f4xx_tim.xcl
 build stm32f4xx_usart.pbi : index stm32f4xx_usart.xcl
 build stm32f4xx_wwdg.pbi : index stm32f4xx_wwdg.xcl
-build delay.pbi : index delay.xcl
 build main.pbi : index main.xcl
 build Project_part0.pbi : link system_stm32f4xx.pbi heap_2.pbi list.pbi port.pbi queue.pbi tasks.pbi
 build Project_part1.pbi : link timers.pbi misc.pbi stm32f4xx_adc.pbi stm32f4xx_can.pbi stm32f4xx_crc.pbi stm32f4xx_cryp.pbi
@@ -66,7 +65,7 @@ build Project_part2.pbi : link stm32f4xx_cryp_aes.pbi stm32f4xx_cryp_des.pbi stm
 build Project_part3.pbi : link stm32f4xx_dma.pbi stm32f4xx_exti.pbi stm32f4xx_flash.pbi stm32f4xx_fsmc.pbi stm32f4xx_gpio.pbi stm32f4xx_hash.pbi
 build Project_part4.pbi : link stm32f4xx_hash_md5.pbi stm32f4xx_hash_sha1.pbi stm32f4xx_i2c.pbi stm32f4xx_iwdg.pbi stm32f4xx_pwr.pbi stm32f4xx_rcc.pbi
 build Project_part5.pbi : link stm32f4xx_rng.pbi stm32f4xx_rtc.pbi stm32f4xx_sdio.pbi stm32f4xx_spi.pbi stm32f4xx_syscfg.pbi stm32f4xx_tim.pbi
-build Project_part6.pbi : link stm32f4xx_usart.pbi stm32f4xx_wwdg.pbi delay.pbi main.pbi
+build Project_part6.pbi : link stm32f4xx_usart.pbi stm32f4xx_wwdg.pbi main.pbi
 build Project.pbd : link Project_part0.pbi Project_part1.pbi Project_part2.pbi Project_part3.pbi Project_part4.pbi Project_part5.pbi Project_part6.pbi
 build Project.pbw : browsedata Project.pbd
 

@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armstlink2.dll" 
 
-"D:\STM32\USB\Debug\Exe\Project.out" 
+"D:\STM32\FreeRTOS_Library\Debug\Exe\Project.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
 

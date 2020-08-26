@@ -2247,9 +2247,6 @@
     <group>
         <name>USER</name>
         <file>
-            <name>$PROJ_DIR$\Libraries\delay.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\src\main.c</name>
         </file>
     </group>
